@@ -5,7 +5,8 @@ const app = express();
 app.use(cors({
   origin: [
     "https://bfhl-frontend-two-zeta.vercel.app",
-    "http://localhost:3001"
+    "http://localhost:3001",
+    "http://127.0.0.1:5500"
   ],
   methods: ["GET", "POST"],
   allowedHeaders: ["Content-Type"]
@@ -245,5 +246,5 @@ app.get("/", (req, res) => {
 
 const PORT = process.env.PORT || 3001;
 app.listen(PORT, () => {
-  console.log(`BFHL backend running on http://localhost:${PORT}`);
+  console.log(`BFHL backend running on https://bfhl-backend-55u6.onrender.com`);
 });
