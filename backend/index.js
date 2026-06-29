@@ -17,7 +17,6 @@ const USER_ID = "mddanishalam_11082005";
 const EMAIL_ID = "danish1326.be23@chitkarauniversity.edu.in";
 const COLLEGE_ROLL_NUMBER = "2311981326";
 
-
 //validation check for each entry
 
 function validateEntry(entry) {
